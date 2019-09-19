@@ -1,0 +1,74 @@
+.header {
+  font-size: 24px;
+  padding-top: 45px;
+  padding-bottom: 70px;
+  background-color: #dcdcdc;
+  color: #767676;
+}
+
+.header__col {
+  display: flex;
+}
+
+.header__col--left {
+  padding-top: 30px;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.logo__img {
+  width: 100px;
+  height: 100px;
+}
+
+.company {
+  font-family: 'myriadpro';
+  width: 165px;
+}
+
+.company__name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.company__desc {
+  font-size: 16px;
+}
+
+.header__col--right {
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.contacts__phone {
+  font-family: 'open_sanscondensed_light';
+  font-size: 40px;
+  line-height: 46px;
+  display: block;
+}
+
+.contacts__phone--two {
+  margin-bottom: 2px;
+}
+
+.contacts__feedback {
+  text-align: right;
+}
+
+.contacts__feedback > span {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  border-bottom: 2px dashed #767676;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
+

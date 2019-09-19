@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'open_sanscondensed_light';
+  src: url('../../fonts/opensans-condlight-webfont.woff2') format('woff2'),
+       url('../../fonts/opensans-condlight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriadpro';
+  src: url('../../fonts/MyriadPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

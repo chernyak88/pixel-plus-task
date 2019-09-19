@@ -1,0 +1,41 @@
+.menu {
+  height: 80px;
+  background-color: #767676;
+}
+
+.menu__container {
+  height: 100%;
+}
+
+.menu__list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item {
+  border-right: 2px solid #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu__item:first-child {
+  padding-left: 0;
+}
+
+.menu__item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.menu__link {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.menu__link:hover {
+  border-bottom: 2px solid #fff; 
+}

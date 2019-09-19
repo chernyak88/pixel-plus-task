@@ -11,30 +11,67 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="header">
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__col header__col--left">
+          <div class="logo">
+            <a href="./index.html" class="logo__link"><img src="./img/logo.jpg" alt="Pixel Plus" class="logo__img"></a>
+          </div>
+          <div class="company">
+            <div class="company__name">Название компании</div>
+            <div class="company__desc">самая клевая компания</div>
+          </div>
+        </div>
+        <div class="header__col header__col--right">
+          <address class="contacts">
+            <a href="tel:+74997777777" class="contacts__phone">+7 (499) 777-77-77</a>
+            <a href="tel:+74997777777" class="contacts__phone contacts__phone--two">+7 (499) 777-77-77</a>
+            <div class="contacts__feedback"><span>Обратная связь</span></div>
+          </address>
+        </div>
+      </div>
+    </header>
+    <aside class="menu">
+      <div class="container menu__container">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Каталог</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Доставка и оплата</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Прайс-лист</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <section class="slider">
+      <ul class="slider__list">
+        <li class="slider__item showing" style="background-image: url('../../img/slide1.jpg');"></li>
+        <li class="slider__item" style="background-image: url('../../img/slide2.jpg');"></li>
+      </ul>
+      <button class="slider__arrow slider__arrow--prev" id="prev"></button>
+      <button class="slider__arrow slider__arrow--next" id="next"></button> 
+    </section>
+    <section class="content">
+
+    </section>
+    <footer class="footer">
       <div class="container">
 
       </div>
-    </div>
-    <div class="menu">
-      <div class="container">
-
-      </div>
-    </div>
-    <div class="slider">
-
-    </div>
-    <div class="content">
-
-    </div>
-    <div class="footer">
-      <div class="container">
-        
-      </div>
-    </div>
+    </footer>
     <div class="feedback">
 
     </div>
   </div>
+  <script src="./main.js"></script>
 </body>
 </html>
