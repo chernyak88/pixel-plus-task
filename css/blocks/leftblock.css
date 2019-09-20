@@ -1,0 +1,60 @@
+.leftblock {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.sidebar {
+  margin-bottom: 100px;
+}
+
+.sidebar__list {
+  font-size: 18px;
+}
+
+.sidebar__item {
+  margin-bottom: 10px;
+}
+
+.sidebar__link:hover, .sidebar__link--active {
+  text-decoration: underline;
+}
+
+.sidebar__underlist {
+  padding-left: 25px;
+}
+
+.sidebar__underitem {
+  font-size: 14px;
+  list-style-type: disc;
+}
+
+.sidebar__underlink:hover {
+  text-decoration: underline;
+}
+
+.sidebar__underlink--active {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.price__pice-img {
+  display: block;
+  width: 97px;
+  height: 111px;
+}
+
+.price__title {
+  font-size: 30px;
+  font-weight: bold;
+}

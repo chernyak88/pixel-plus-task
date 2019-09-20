@@ -1,0 +1,30 @@
+.pagination {
+  align-self: center;
+  margin-bottom: 65px;
+}
+
+.pagination__list {
+  display: flex;
+  width: 180px;
+  height: 25px;
+  justify-content: space-between;
+}
+
+.pagination__item {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.pagination__link {
+  text-decoration: none;
+  padding: 4px 8px;
+}
+
+.pagination__item .pagination__link--active {
+  font-size: 18px;
+}
+
+.pagination__link:hover {
+  font-size: 18px;
+}

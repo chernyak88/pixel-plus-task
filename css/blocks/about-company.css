@@ -1,0 +1,14 @@
+.about-company {
+  display: flex;
+  border-top: 1px solid #777777;
+  padding-top: 30px;
+}
+
+.about-company__block {
+  width: calc(50% - 20px);
+  margin-right: 40px;
+}
+
+.about-company__block:last-child {
+  margin-right: 0;
+}
