@@ -18,6 +18,10 @@
   margin-bottom: 20px;
 }
 
+.catalog__item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .catalog__item-pic {
   margin-bottom: 20px;
 }
@@ -43,7 +47,7 @@
 .catalog__item-price {
   font-size: 28px;
   font-weight: bold;
-  margin-right: 65px;
+  margin-right: auto;
 }
 
 .catalog__item-icon {

@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  
+  .menu__link {
+    font-size: 22px;
+  }
+
+  .price__title {
+    font-size: 24px;
+  }
+}

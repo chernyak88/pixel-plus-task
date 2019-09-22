@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="icon" type="image/x-icon" href="https://chernyak88.github.io/pixel-plus-task/favicon.ico">
   <title>Pixel Plus Task</title>
+  <html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Как подключить библиотека jQuery к сайту (HTML)</title>
+</head>
+<body>
+</body>
+</html>
 </head>
 <body>
   <div class="wrapper">
@@ -57,8 +65,10 @@
         <li class="slider__item showing" style="background-image: url('./img/slide1.jpg');"></li>
         <li class="slider__item" style="background-image: url('./img/slide2.jpg');"></li>
       </ul>
-      <button class="slider__arrow slider__arrow--prev" id="prev"></button>
-      <button class="slider__arrow slider__arrow--next" id="next"></button> 
+      <div class="slider__arrows">
+        <button class="slider__arrow slider__arrow--prev" id="prev"></button>
+        <button class="slider__arrow slider__arrow--next" id="next"></button>
+      </div>
     </section>
     <main class="main">
       <div class="container main__container">
@@ -244,7 +254,7 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <div class="footer__col">
           <div class="copyright">
             © 2012-2013 ЗАО «Компания»
@@ -285,8 +295,38 @@
         </div>
       </div>
     </footer>
-    <div class="feedback">
-
+    <div class="feedbackoverlay">
+      <div class="feedback">
+        <div class="feedback__title">ОБРАТНАЯ СВЯЗЬ</div>
+        <form class="form" id="form" onsubmit="return validate()">
+          <div class="form__row">
+            <label class="form__block">
+              <div class="form__text">Ваше имя *</div>
+              <input type="text" class="form__input" name="name" id="name">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="form__block">
+              <div class="form__text">Телефон *</div>
+              <input type="text" class="form__input" name="phone" id="phone">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="form__block">
+              <div class="form__text">Email *</div>
+              <input type="text" class="form__input" name="email" id="email">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="form__block">
+              <div class="form__text">Сообщение</div>
+              <textarea class="form__textarea" name="text"></textarea>
+            </label>
+          </div>
+          <button type="submit" class="form__btn">ОТПРАВИТЬ</button>
+        </form>
+        <button class="feedback__close"></button>
+      </div>
     </div>
   </div>
   <script src="./main.js"></script>

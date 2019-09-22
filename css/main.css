@@ -12,3 +12,7 @@
 @import url('./blocks/pagination.css');
 @import url('./blocks/about-company.css');
 @import url('./blocks/footer.css');
+@import url('./blocks/feedback.css');
+@import url('./adaptive/desktop.css');
+@import url('./adaptive/tablets.css');
+@import url('./adaptive/phones.css');

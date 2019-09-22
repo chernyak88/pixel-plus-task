@@ -70,5 +70,9 @@
   cursor: pointer;
 }
 
+.contacts__feedback > span:hover {
+  border-bottom: none;
+}
+
 
 

@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+  .contacts__phone {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  .header__col--right {
+    padding-top: 45px;
+  }
+
+  .contacts__feedback > span {
+    font-size: 18px;
+  }
+
+  .menu {
+    height: 160px;
+  }
+
+  .menu__list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .menu__item {
+    width: 50%;
+    border-right: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .slider__item {
+    background-position: 25% 70%;
+  }
+
+  .leftblock {
+    width: 40%;
+  }
+
+  .centerblock {
+    width: 60%;
+  }
+
+  .catalog__item {
+    width: 100%;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .catalog__item-pic {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .about-company {
+    flex-direction: column;
+  }
+
+  .about-company__block {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .about-company__block:first-child {
+    margin-bottom: 40px;
+  }
+
+  .feedback {
+    width: 75%;
+    padding: 10px 20px;
+  }
+}

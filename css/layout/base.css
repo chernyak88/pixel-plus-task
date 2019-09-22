@@ -12,6 +12,11 @@ body {
   padding: 0;
 }
 
+.hidden {
+  overflow: hidden;
+  padding-right: 17px;
+}
+
 ul, p {
   margin: 0;
   padding: 0;
@@ -28,6 +33,7 @@ a {
 }
 
 .wrapper {
+  position: relative;
   overflow: hidden;
   min-height: 100%;
   display: flex;
